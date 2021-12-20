@@ -2,7 +2,8 @@
 if(isset($_POST['Submit'])){
        $gettitle=$_POST['Title'];
     }
-
+?>
+<?php
 $title = $_POST['Title'];
 $Firstname = $_POST['FirstName'];
 $Lastname = $_POST['LastName'];
