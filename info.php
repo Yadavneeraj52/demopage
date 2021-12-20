@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['Title'])){
-       $POSTtitle=$_POST['Title'];
+       $gettitle=$_POST['Title'];
     }
 
 $title = $_POST['Title'];
