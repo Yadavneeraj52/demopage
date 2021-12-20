@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>upload file</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="contactus">
+<form action="info.php" method="POST">
+<h1> Contact Form</h1>
+<hr>
+<label>Title*</label><br>
+  <select name="Title">
+      <option value="Mr">Mr</option>
+      <option value="Mrs">Mrs</option>
+      <option value="Ms">Ms</option>
+  </select><br><br>
+  <label>First Name</label>
+  <input type="first name" name="FirstName" placeholder="First Name"><br><br>
+  <label>Last Name</label>
+  <input type="last name" name="LastName" placeholder="Last Name"><br><br>
+  <label>Date Of Birth*</label>
+  <input type="Date" name="birthday"><br><br>
+  <label>Mobile Number*</label>
+  <input type="number" name="Mobile" placeholder="Mobile Number">
+  <label>Upload PDF File*</label>
+  <input type="file" name="filename" placeholder="FileName"><br><br>
+  <label>Email-Id*</label>
+  <input type="email" name="email" placeholder="E-Mail"><br><br>
+  <label>Message*</label>
+  <input type="text" name="Message" placeholder="Enter The Message...." maxlenght="300"><br><br>
+  <input type="submit" name="submit">
+</form>
+</div>
+</body>
+</html>
